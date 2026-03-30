@@ -1,0 +1,62 @@
+<mxfile host="65bd71144e">
+    <diagram id="tea" name="Page-1">
+        <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="30" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Взять чайник" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Налить воду" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="200" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Поставить на плиту" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Включить плиту" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="360" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Дождаться закипания" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="440" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Взять чашку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="520" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Положить чайный пакетик" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="600" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Налить кипяток в чашку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="680" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Добавить сахар?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="304" y="760" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Добавить сахар" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="775" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Размешать" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="890" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="970" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="2" target="3" parent="1"/>
+                <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="3" target="4" parent="1"/>
+                <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="4" target="5" parent="1"/>
+                <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="5" target="6" parent="1"/>
+                <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="6" target="7" parent="1"/>
+                <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="7" target="8" parent="1"/>
+                <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="8" target="9" parent="1"/>
+                <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="9" target="10" parent="1"/>
+                <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="10" target="11" parent="1"/>
+                <mxCell id="e10" value="Да" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="11" target="12" parent="1"/>
+                <mxCell id="e11" value="Нет" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="11" target="13" parent="1"/>
+                <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="12" target="13" parent="1"/>
+                <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="13" target="14" parent="1"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

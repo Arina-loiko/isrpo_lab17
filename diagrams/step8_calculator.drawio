@@ -1,0 +1,51 @@
+<mxfile host="65bd71144e">
+    <diagram id="calc" name="Page-1">
+        <mxGraphModel dx="1422" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="100" value="ГЛАВНАЯ ПРОГРАММА" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="10" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="ФУНКЦИЯ Sum(a, b)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="10" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="НАЧАЛО Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="50" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Ввод: num1, num2" style="shape=parallelogram;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="130" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="result = Sum(a, b)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="210" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="НАЧАЛО Sum(a, b)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="210" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="result = a + b" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="290" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="return result" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="КОНЕЦ Sum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="450" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Вывод: result" style="shape=parallelogram;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="370" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="КОНЕЦ Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="450" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="2" target="3" parent="1"/>
+                <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="3" target="4" parent="1"/>
+                <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="4" target="5" parent="1"/>
+                <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="5" target="6" parent="1"/>
+                <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="6" target="7" parent="1"/>
+                <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="7" target="9" parent="1"/>
+                <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="7" target="8" parent="1"/>
+                <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="9" target="10" parent="1"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
